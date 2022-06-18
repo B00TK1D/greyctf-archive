@@ -1,0 +1,10 @@
+
+<!-- saved from url=(0028)http://150.230.222.48:12325/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><br>
+<b>Warning</b>:  Undefined array key "f" in <b>/var/www/html/index.php</b> on line <b>2</b><br>
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br>&nbsp;&nbsp;&nbsp;&nbsp;$file&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'f'</span><span style="color: #007700">];<br>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!</span><span style="color: #0000BB">$file</span><span style="color: #007700">)&nbsp;</span><span style="color: #0000BB">highlight_file</span><span style="color: #007700">(</span><span style="color: #0000BB">__FILE__</span><span style="color: #007700">);<br><br>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">preg_match</span><span style="color: #007700">(</span><span style="color: #DD0000">'#[^.cat!?&nbsp;/\|\-\[\]\(\)\$]#'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$file</span><span style="color: #007700">))&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;die(</span><span style="color: #DD0000">"cat&nbsp;only"</span><span style="color: #007700">);<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br><br>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(isset(</span><span style="color: #0000BB">$file</span><span style="color: #007700">))&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">system</span><span style="color: #007700">(</span><span style="color: #DD0000">"cat&nbsp;"&nbsp;</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$file</span><span style="color: #007700">);<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br></span><span style="color: #0000BB">?&gt;<br></span>
+</span>
+</code><br>
+<b>Deprecated</b>:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in <b>/var/www/html/index.php</b> on line <b>5</b><br>
+</body></html>

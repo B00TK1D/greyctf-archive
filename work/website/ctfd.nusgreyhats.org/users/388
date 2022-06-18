@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>GreyCTF</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/files/242140e1e240f2396d6f535cf607a493/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/themes/core/static/css/fonts.min.css?d=9aee1723">
+    <link rel="stylesheet" href="/themes/core/static/css/core.min.css?d=9aee1723">
+    <link rel="stylesheet" href="/themes/neon/static/css/style.dev.css?d=9aee1723">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HackerThemes/theme-machine@latest/dist/neon-glow/css/bootstrap4-neon-glow.min.css">
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+    
+
+
+    
+    <script type="text/javascript">
+      var init = {
+        'urlRoot': "",
+        'csrfNonce': "a3feb2ad784c58529639bf7543e61073c7822ac9d67749540d191ed17b2bc21e",
+        'userMode': "teams",
+        'userId': 0,
+        'start': 1654516800,
+        'end': 1654862400,
+        'theme_settings': null
+      }
+    </script>
+    <style>
+.challenge-connection-info {
+  	display: inline-block;
+	margin-bottom: 12px;
+}
+</style>
+  </head>
+
+  <body>
+    <div class="ht-tm-navbar navbar-dark text-white">
+  <div class="container">
+    <div class="ht-tm-navbar-left">
+      <a href="/" class="text-decoration-none text-light">
+        <span class="ht-tm-navbar-title">GreyCTF</span>
+      </a>
+      <nav class="ht-tm-nav">
+        <a href="/" class="pl-md-0 p-3 text-light">Home</a>
+        
+
+        
+          <a class="text-decoration-none text-light" href="/users">Users</a>
+          
+            <a class="text-decoration-none text-light" href="/teams">Teams</a>
+          
+        
+
+        
+          <a class="text-decoration-none text-light" href="/scoreboard">Scoreboard</a>
+        
+        <a class="text-decoration-none text-light" href="/challenges">Challenges</a>
+        <a class="text-decoration-none text-light" href="/notifications">Notifications</a>
+      </nav>
+    </div>
+    <div class="ht-tm-element btn-group ml-auto">
+      
+        
+          <a class="btn btn-sm btn-outline-light" href="/register">
+            <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="Register">
+              <i class="fas fa-user-plus d-none d-md-block d-lg-none"></i>
+            </span>
+            <span class="d-sm-block d-md-none d-lg-block">
+              <i class="fas fa-user-plus pr-1"></i>Register
+            </span>
+          </a>
+        
+        <a class="btn btn-sm btn-outline-light" href="/login">
+          <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="Login">
+            <i class="fas fa-sign-in-alt d-none d-md-block d-lg-none"></i>
+          </span>
+          <span class="d-sm-block d-md-none d-lg-block">
+            <i class="fas fa-sign-in-alt pr-1"></i>Login
+          </span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+    <main role="main">
+      
+	<div class="jumbotron">
+		<div class="container">
+			<h1>sinestrea</h1>
+
+			
+				<h2>
+					<a href="/teams/224">
+						<span class="badge badge-secondary">
+							upgradeRole
+						</span>
+					</a>
+				</h2>
+			
+
+			
+
+			
+
+			<div>
+				<h2 class="text-center">
+					
+						237th <small>place</small>
+					
+				</h2>
+				<h2 class="text-center">
+					
+						150 <small>points</small>
+					
+				</h2>
+			</div>
+
+			<div class="pt-3">
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+
+
+</div>
+
+		
+		
+		
+			<div class="row">
+				<div class="col-md-6 d-none d-md-block d-lg-block">
+					<div id="keys-pie-graph" class="d-flex align-items-center">
+						<div class="text-center w-100">
+							<i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 d-none d-md-block d-lg-block">
+					<div id="categories-pie-graph" class="d-flex align-items-center">
+						<div class="text-center w-100">
+							<i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+						</div>
+					</div>
+				</div>
+				<br class="clearfix">
+				<div class="col-md-12 d-none d-md-block d-lg-block">
+					<div id="score-graph" class="w-100 d-flex align-items-center">
+						<div class="text-center w-100">
+							<i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Awards</h3>
+				</div>
+				
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Solves</h3>
+					<table class="table table-striped">
+						<thead>
+						<tr>
+							<td><b>Challenge</b></td>
+							<td class="d-none d-md-block d-lg-block"><b>Category</b></td>
+							<td><b>Value</b></td>
+							<td><b>Time</b></td>
+						</tr>
+						</thead>
+						<tbody>
+						
+							<tr>
+								<td>
+									<a href="/challenges#🍭 Welcome-41">
+										🍭 Welcome
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Welcome</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-06-06T12:53:35Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#🍭 Too Fast-10">
+										🍭 Too Fast
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Web</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-06-07T00:13:49Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#🍭 Image Upload-32">
+										🍭 Image Upload
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Misc</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-06-07T12:32:25Z"></span>
+								</td>
+							</tr>
+						
+						</tbody>
+					</table>
+				</div>
+			</div>
+		
+	</div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="text-center container">
+        <a href="https://github.com/chainflag/ctfd-neon-theme" class="text-secondary">
+          <small class="text-muted">Theme from ChainFlag</small>
+        </a> 
+	&nbsp;|&nbsp;
+        <a href="https://ctfd.io" class="text-secondary">
+          <small class="text-muted">Powered by CTFd</small>
+        </a>
+      </div>
+    </footer>
+
+    <script defer="defer" src="/themes/core/static/js/vendor.bundle.min.js?d=9aee1723"></script>
+    <script defer="defer" src="/themes/core/static/js/core.min.js?d=9aee1723"></script>
+    <script defer="defer" src="/themes/core/static/js/helpers.min.js?d=9aee1723"></script>
+
+    
+	<script defer src="/themes/core/static/js/pages/stats.min.js?d=9aee1723"></script>
+
+
+    
+	<script>
+		var stats_data = {"account_id": 388, "id": 388, "name": "sinestrea", "type": "user"};
+	</script>
+	<script defer src="/themes/core/static/js/echarts.bundle.min.js?d=9aee1723"></script>
+	<script defer src="/themes/core/static/js/graphs.min.js?d=9aee1723"></script>
+
+
+    
+
+    
+  </body>
+
+</html>
